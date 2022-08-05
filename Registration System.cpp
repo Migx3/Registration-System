@@ -58,7 +58,6 @@ void loginSystem(std::string& username, std::string& password) {
 		clearConsole();
 		std::cout << "Successfully logged in.";
 		sleep(2);
-		EXIT_SUCCESS;
 	}
 
 	else {
